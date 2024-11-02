@@ -66,7 +66,7 @@ BMW-Diagnostic-Assistant/
 <div align="center">
   <table>
     <tr>
-      <td><img src="image/bild_appen.png" alt="Dashboard" width="300"/></td>
+      <td><img src="image/bild_appen.png" alt="Dashboard" width="700"/></td>
       <!-- Lägg till fler bilder här när de finns tillgängliga -->
     </tr>
   </table>
