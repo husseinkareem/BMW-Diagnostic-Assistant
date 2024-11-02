@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysera BMW problem</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Analysera BMW problem</h1>
+        <div class="form-container">
+            <div class="input-group">
+                <label for="model">BMW-modell:</label>
+                <select id="model" required>
+                    <option value="">Välj BMW-modell</option>
+                    <option value="BMW 1 Series">BMW 1 Series</option>
+                    <option value="BMW 3 Series">BMW 3 Series</option>
+                    <option value="BMW 5 Series">BMW 5 Series</option>
+                    <option value="BMW X3">BMW X3</option>
+                    <option value="BMW X5">BMW X5</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="fault_code">Felkod:</label>
+                <select id="fault_code" required>
+                    <option value="">Välj felkod</option>
+                    <option value="P0010">P0010 - Kamaxelposition sensor fel</option>
+                    <option value="P0300">P0300 - Oregelbundet tändfel</option>
+                    <option value="P0420">P0420 - Katalysator effektivitet fel</option>
+                    <option value="P0455">P0455 - Stort läckage i bränslesystemet</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="component">Defekt del:</label>
+                <select id="component" required>
+                    <option value="">Välj defekt del</option>
+                    <option value="Motor">Motor</option>
+                    <option value="Bränslesystem">Bränslesystem</option>
+                    <option value="Avgassystem">Avgassystem</option>
+                    <option value="Elektronik">Elektronik</option>
+                </select>
+            </div>
+            <button onclick="analyzeIssue()">Analysera Problem</button>
+        </div>
+        <div id="result" class="result-container hidden">
+            <h2>Analysresultat</h2>
+            <div id="analysis-content"></div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
