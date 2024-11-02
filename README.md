@@ -1,49 +1,76 @@
-# Bmw-analyzer-AI
+# 🚗 BMW Diagnostic Assistant
 
-## Introduktion
-Bmw-analyzer-AI är ett avancerat verktyg för analys av BMW-fordon. Projektet använder artificiell intelligens för att analysera data från BMW-bilar, vilket hjälper ägare och mekaniker att förutse underhållsbehov, optimera prestanda och förbättra fordonets övergripande effektivitet.
 
-## Installation
-Följ dessa steg för att installera och köra projektet lokalt:
+## 🎯 Översikt
+BMW Diagnostic Assistant är ett kraftfullt verktyg som använder artificiell intelligens för att analysera och optimera BMW-fordon. Systemet hjälper både ägare och mekaniker genom att leverera realtidsdata, prediktiva insikter och prestandaoptimering.
 
-1. Klona repositoryt:
-   ```bash
-   git clone https://github.com/ditt-användarnamn/Bmw-analyzer-AI.git
-   ```
-2. Navigera till projektmappen:
-   ```bash
-   cd Bmw-analyzer-AI
-   ```
-3. Installera beroenden:
-   ```bash
-   npm install
-   ```
-4. Starta applikationen:
-   ```bash
-   npm start
-   ```
+## ✨ Huvudfunktioner
 
-## Funktioner
-- **Realtidsdiagnostik**: Övervakar bilens prestanda i realtid och varnar för potentiella problem.
-- **Prediktivt underhåll**: Använder AI för att förutsäga när underhåll behövs baserat på användningsmönster.
-- **Prestandaoptimering**: Ger rekommendationer för att förbättra bränsleeffektivitet och motorprestanda.
-- **Historisk dataanalys**: Spårar bilens prestanda över tid för att identifiera långsiktiga trender.
+- 🔍 **Realtidsdiagnostik**
+  - Kontinuerlig övervakning av fordonets status
+  - Direkta varningar vid avvikelser
+  - Detaljerad diagnostisk information
 
-## Bild på projektet
-![Bild på projektet](image/bild_appen.png)
+- 🤖 **AI-Driven Prediktivt Underhåll**
+  - Förutser servicebehov innan problem uppstår
+  - Anpassade underhållsscheman
+  - Kostnadseffektiv fordonshantering
 
-## Arkitektur
-Projektet är strukturerat på följande sätt:
+- ⚡ **Prestandaoptimering**
+  - Intelligenta rekommendationer för bränsleeffektivitet
+  - Motorprestandaanalys
+  - Anpassade körprofiler
 
-- **Mappstruktur**:
-  - `src/`: Innehåller källkoden för AI-modeller och dataanalys.
-  - `tests/`: Innehåller automatiserade tester för alla komponenter.
-  - `docs/`: Innehåller detaljerad dokumentation och API-referens.
-  - `data/`: Lagrar insamlade fordonsdata och analysresultat.
+- 📊 **Avancerad Dataanalys**
+  - Omfattande historisk dataövervakning
+  - Trendanalyser och rapporter
+  - Personliga insikter
 
-## Förutsättningar
-För att köra projektet behöver du följande:
+## 🚀 Kom igång
 
-- Node.js (version 14 eller senare)
-- npm (kommer med Node.js)
-- Tillgång till en BMW-bil för analys
+### Förutsättningar
+- Node.js (v14+)
+- npm
+- Kompatibel BMW-modell
+
+### Installation
+
+1. Klona projektet
+```bash
+git clone git@github.com:husseinkareem/BMW-Diagnostic-Assistant.git
+```
+
+2. Installera beroenden
+```bash
+cd BMW-Diagnostic-Assistant
+npm install
+```
+
+3. Starta applikationen
+```bash
+npm start
+```
+
+## 📁 Projektstruktur
+
+```
+BMW-Diagnostic-Assistant/
+├── src/           # Källkod och AI-modeller
+├── tests/         # Automatiserade tester
+├── docs/          # Dokumentation
+└── data/          # Analysdata och resultat
+```
+
+## 📱 Skärmdumpar
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="image/bild_appen.png" alt="Dashboard" width="300"/></td>
+      <!-- Lägg till fler bilder här när de finns tillgängliga -->
+    </tr>
+  </table>
+</div>
+
+## 📄 Licens
+Detta projekt är licensierat under MIT-licensen.
